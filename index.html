@@ -3,14 +3,36 @@
 
     <head>
         <title>Paint Your Ride</title>
-
+        <link 
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="./styles/style.css" />
     </head>
 
     <body>
-
-        <h1>Paint Your Ride</h1>
+            <h1>Paint Your Ride</h1>
             <p>Thank You for visiting us and we look forward to making your ride special</p>
-
+        <div id="carouselExample" class="carousel slide my-first-carousel">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="./images/Basic Car.png" class="d-block w-100" alt="Basic Package">
+        </div>
+            <div class="carousel-item">
+            <img src="./images/Premium Car.png" class="d-block w-100" alt="Premium Package">
+        </div>
+            <div class="carousel-item">
+            <img src="./images/Restored Car.png" class="d-block w-100" alt="Restoration Package">
+        </div>
+        </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
         <h2>Basic Package</h2>
             <p>The package includes a full paint job </p>
 
@@ -19,7 +41,9 @@
 
         <h2>Restoration Package</h2>
             <p>The package includes interior/exterior repair with your choice of our unique colors</p>
-            
+        <script 
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"
+        ></script>
     </body>
 
 </html>
