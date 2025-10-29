@@ -4,6 +4,6 @@
     HTML
     CSS
     Bootstrap
-## Future Improvements
 ## User Stories
 ## Wireframe
+## Future Improvements
