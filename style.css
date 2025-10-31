@@ -1,7 +1,6 @@
 html {
 background-color: rgba(129, 89, 89, 0.385);
 }
-
 body {
 background-color: rgba(129, 89, 89, 0.385);
 }
@@ -14,11 +13,8 @@ padding-bottom: 5px;
 text-align: center;
 background-color: rgba(78, 45, 45, 0.896);
 border: 2px solid black;
-color:rgba(243, 239, 239, 0.911)  
-
-
+color:rgba(243, 239, 239, 0.911)
 }
-
 h2 {
     text-wrap: balance;
     text-align: center;
