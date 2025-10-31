@@ -1,1 +1,46 @@
+html {
+background-color: rgba(129, 89, 89, 0.385);
+}
 
+body {
+background-color: rgba(129, 89, 89, 0.385);
+}
+h1 {
+font-family: 'old standard tt', serif, cursive;
+font-size: 50px;
+margin-top: 0px;
+padding-bottom: px;   
+
+text-align: center;
+background-color: rgba(9, 8, 8, 0.675);
+border: 2px solid black;
+color:rgba(245, 237, 237, 0.911)  
+
+
+}
+
+h2 {
+    text-wrap: balance;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+footer {
+background-color: rgb(231, 204, 229);
+text-align: center;
+border: 2px solid black;
+}
+.intro.firstparagraph p {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+.visitus.secondparagraph p {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  padding: 0 50px;
+}
+.bg-body-tertiary {
+  background-color: rgb(166, 96, 96) !important;
+}
