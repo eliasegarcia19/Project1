@@ -1,6 +1,10 @@
 ## Project_1_Basic_Business_Website
 ## Developer
     Elias Garcia
+## Project Overview
+
+## Functionality
+
 ## Technologies Used
     HTML
     CSS
@@ -10,4 +14,11 @@
     As a user you can navigate to navigation bar to access additional pages
     As a user you can interact with the carousel and submit a contact form
 ## Wireframe
+
+
 ## Future Improvements
+    Automatic Carousel
+    Revised Logo
+    Services with images
+    Bug fixes
+    
