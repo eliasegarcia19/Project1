@@ -16,7 +16,15 @@
 * As a user, I want to first see images of cars displayed on a carousel when I visit the website. This will give me an immediate visual impression of the services offered. It should automatically rotate through images but also allow me to manually navigate between them.
 * As a user, I want to use the navigation bar to explore different pages of the site. This will help me quickly find sections like Services, Gallery, and Contact Us. The navigation should be easy to locate and responsive on all devices.
 * As a user, I want to interact with the carousel and fill out a contact form to request a quote or more information. The carousel should respond smoothly to clicks or swipes.
-## Wireframe
+## Wireframes
+## Home Page - Desktop Version
+![Wireframe Preview](./images/Home%20page%20WireFrame.drawio.png)
+## Services Page - Desktop Version
+![Wireframe Preview](./images/Servies%20WireFrame.drawio.png)
+## Contact Us Page - Desktop Version
+![Wireframe Preview](./images/Contact%20Us%20WireFrame.drawio.png)
+## Gallery Page - Desktop Version
+![Wireframe Preview](./images/Gallery%20WireFrame.drawio.png)
 
 
 ## Future Improvements
