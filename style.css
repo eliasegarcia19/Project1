@@ -2,11 +2,14 @@ html {
 background-color: rgba(129, 89, 89, 0.385);
 }
 .bg-body-tertiary {
-  background-color: rgb(166, 96, 96) !important;
+background-color: rgb(166, 96, 96) !important;
 }
 body {
- background-color: rgba(129, 89, 89, 0.385);
+background-color: rgba(129, 89, 89, 0.385);
 height: 100vh;
+}
+main {
+min-height: 80vh;
 }
 h1 {
 font-family: 'calistoga', cursive;
@@ -17,42 +20,41 @@ text-align: center;
 }
 .intro.firstparagraph p {
 font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 17px;
-  text-align: center;
-  font-weight: bold;
-  text-align: center;
+font-size: 17px;
+text-align: center;
+font-weight: bold;
+text-align: center;
 }  
 h2 {
-    text-wrap: balance;
-    text-align: center;
-    margin-top: 20px;
-    padding-bottom: 10px;
-    font-family: 'calistoga', cursive;
-    font-size: 40px;
+text-wrap: balance;
+text-align: center;
+margin-top: 20px;
+padding-bottom: 10px;
+font-family: 'calistoga', cursive;
+font-size: 40px;
 }
 .visitus.secondparagraph p {
-    font-family:Georgia, 'Times New Roman', Times, serif
-  font-size: 20px;
-  text-align: center;
-  font-weight: bold;
-  padding: 0 50px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-size: 20px;
+text-align: center;
+font-weight: bold;
+padding: 0 50px;
 }
 input, textarea {
-  width: 100%;
-  padding: 1px;
-  margin: 5px 0 5px 0;
+width: 100%;
+padding: 1px;
+margin: 5px 0 5px 0;
 }
 .form-container-fluid {
-  height: 85vh;
-  margin: 0;
-  display: flex;
-    justify-content: center;
-    background-color: rgba(129, 89, 89, 0.385);
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+margin: 0;
+display: flex;
+justify-content: center;
+background-color: rgba(129, 89, 89, 0.385);
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 footer {
 background-color: rgb(175, 115, 115);
-text-align: center
+text-align: center;
 border: 2px solid black;
 }
