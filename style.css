@@ -1,113 +1,103 @@
-html {
-background-color: rgba(129, 89, 89, 0.385);
+* {
+  box-sizing: border-box;
 }
-.bg-body-tertiary {
-background-color: rgb(166, 96, 96) !important;
-}
+html,
 body {
-background-color: rgba(129, 89, 89, 0.385);
-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(129, 89, 89, 0.385);
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  overflow-x: hidden;
 }
-main {
-min-height: 80vh;
+h1,
+h2 {
+  font-family: 'Calistoga', cursive;
+  text-align: center;
+  margin: 0;
 }
 h1 {
-font-family: 'calistoga', cursive;
-font-size: 50px;
-margin-top: 0px;
-padding-bottom: 5px;
-text-align: center;
+  font-size: 50px;
+  padding-bottom: 5px;
+}
+h2 {
+  font-size: 40px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  text-wrap: balance;
+}
+.intro.firstparagraph p,
+.visitus.secondparagraph p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-weight: bold;
 }
 .intro.firstparagraph p {
-font-family: Georgia, 'Times New Roman', Times, serif;
-font-size: 17px;
-text-align: center;
-font-weight: bold;
-text-align: center;
-}  
-h2 {
-text-wrap: balance;
-text-align: center;
-margin-top: 20px;
-padding-bottom: 10px;
-font-family: 'calistoga', cursive;
-font-size: 40px;
+  font-size: 17px;
 }
 .visitus.secondparagraph p {
-font-family:Georgia, 'Times New Roman', Times, serif;
-font-size: 20px;
-text-align: center;
-font-weight: bold;
-padding: 0 50px;
+  font-size: 20px;
+  padding: 0 50px;
 }
-input, textarea {
-width: 100%;
-padding: 1px;
-margin: 5px 0 5px 0;
+main {
+  min-height: 80vh;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.bg-body-tertiary {
+  background-color: rgb(166, 96, 96) !important;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0;
 }
 .form-container-fluid {
-margin: 0;
-display: flex;
-justify-content: center;
-background-color: rgba(129, 89, 89, 0.385);
-border-radius: 5px;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(129, 89, 89, 0.385);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 footer {
-background-color: rgb(175, 115, 115);
-text-align: center;
-border: 2px solid black;
+  background-color: rgb(175, 115, 115);
+  text-align: center;
+  border: 2px solid black;
+  padding: 10px 0;
 }
- * {
-      box-sizing: border-box;
-    }
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  background-color: #000;
+}
+.gallery-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 0;
+  transition: transform 0.3s ease;
+}
+.gallery-grid img:hover {
+  transform: scale(1.03);
+  z-index: 2;
+}
+@media screen and (max-width: 900px) {
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 600px) {
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+}
 
-    body {
-      margin: 0;
-      font-family: Arial;
-    }
 
-    .header {
-      text-align: center;
-      padding: 32px;
-    }
-
-    .row {
-      display: -ms-flexbox; /* IE10 */
-      display: flex;
-      -ms-flex-wrap: wrap; /* IE10 */
-      flex-wrap: wrap;
-      padding: 0 4px;
-    }
-
-    /* Create four equal columns that sits next to each other */
-    .column {
-      -ms-flex: 25%; /* IE10 */
-      flex: 25%;
-      max-width: 25%;
-      padding: 0 4px;
-    }
-
-    .column img {
-      margin-top: 8px;
-      vertical-align: middle;
-      width: 100%;
-    }
-
-    /* Responsive layout - makes a two column-layout instead of four columns */
-    @media screen and (max-width: 800px) {
-      .column {
-        -ms-flex: 50%;
-        flex: 50%;
-        max-width: 50%;
-      }
-    }
-
-    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-    @media screen and (max-width: 600px) {
-      .column {
-        -ms-flex: 100%;
-        flex: 100%;
-        max-width: 100%;
-      }
-    }
